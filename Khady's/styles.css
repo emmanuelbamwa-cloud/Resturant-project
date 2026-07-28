@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.colorband{
+  height: 70px;
+  background-color: darkred;
+}
+.logo > h2{
+  color: #b22222;
+  font-weight: 700;
+  font-size: 28px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  font-weight: bold;
+}
+.links li{
+  cursor: pointer;
+}
+.links li:hover{
+  color: #b22222;
+  transition: all 500ms ease-in;
+}
+.icons{
+    display:flex;
+    gap:20px;
+}
+.icons i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.icons i:hover{
+    color: #b22222;
+    transition: all 500ms ease-in;
+}
