@@ -6,8 +6,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .colorband{
-  height: 70px;
+  height: 30px;
   background-color: darkred;
+  margin: 3px;
 }
 .logo > h2{
   color: #b22222;
@@ -43,4 +44,19 @@
 .icons i:hover{
     color: #b22222;
     transition: all 500ms ease-in;
+}
+.button{
+  border-radius: 20rem;
+  box-sizing: content-box;
+  width: 200px;
+  height: 1rem;
+  margin: 0.6rem;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: left;
+  border: #b22222 2px solid;
+}
+.button span{
+  margin-right: 30px;
+  color: grey;
 }
