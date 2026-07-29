@@ -47,6 +47,7 @@
 }
 .button{
   border-radius: 20rem;
+  display: flex;
   box-sizing: content-box;
   width: 200px;
   height: 1rem;
