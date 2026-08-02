@@ -320,11 +320,13 @@ h1 span{
   margin: 10px 0 20px;
   color: #666666;
   line-height: 1.5;
+  text-align: left;
 }
 .product-footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
 }
 .product-footer h2{
   color: #b22222;
