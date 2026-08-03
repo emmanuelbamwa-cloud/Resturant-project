@@ -313,6 +313,9 @@ h1 span{
   display: block;
   margin: 20px auto;
 }
+.product-card:nth-child(4) img{
+  width: 100px;
+}
 .product-card h3{
   margin-top: 20px;
   font-size: 20px;
