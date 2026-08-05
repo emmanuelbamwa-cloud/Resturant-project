@@ -394,6 +394,7 @@ h1 span{
   position: relative;
   display: flex;
   flex: 1;
+  align-items: flex-end;
   justify-content: center;
 }
 .image{
@@ -402,7 +403,8 @@ h1 span{
   position: absolute;
   bottom: 0;
   background:#b22222;
-  border-radius: 20px;
+  border-radius: 30px;
+  z-index: 1;
 }
 .experience-image img{
   width: 320px;
@@ -419,5 +421,42 @@ h1 span{
   background: #ffffff;
   padding: 12px 18px;
   border-radius: 15px;
+  z-index: 3;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+.clients{
+  top: 100px;
+  left: 10px;
+}
+
+.years{
+  bottom: 20px;
+  right: -10px;
+}
+.experience-text{
+  flex: 1;
+  padding-left: 50px;
+}
+
+.experience-text h4{
+  color: #b22222;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.experience-text h2{
+  font-size: 48px;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+.experience-text span{
+  color: #b22222;
+}
+
+.experience-text p{
+  color: #666666;
+  line-height: 1.8;
+  /* margin-bottom: 35px; */
+  max-width: 500px;
 }
