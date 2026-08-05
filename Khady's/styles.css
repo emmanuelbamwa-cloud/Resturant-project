@@ -460,3 +460,13 @@ h1 span{
   /* margin-bottom: 35px; */
   max-width: 500px;
 }
+.experience-stats{
+  display: flex;
+}
+.stat-card{
+  background: #ffffff;
+  background-color: rgba(255, 200, 208, 0.557);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
