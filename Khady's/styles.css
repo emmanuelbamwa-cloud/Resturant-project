@@ -470,3 +470,9 @@ h1 span{
   margin: 10px;
   border-radius: 10px;
 }
+.footer{
+  background-color: #b22222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
